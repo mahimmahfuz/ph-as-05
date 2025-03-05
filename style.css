@@ -1,0 +1,21 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #F4F7FF;
+}
+
+p{
+    margin: 0;
+}
+.wrapper{
+    width: 1536px;
+    margin: 0 auto;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}

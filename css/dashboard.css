@@ -1,0 +1,17 @@
+#daa{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#daa #dashboard{
+    background-color: #FFFFFF;
+    width: 75%;
+    border-radius: 10px;
+}
+#daa #activity{
+    background-color: #FFFFFF;
+    width: 25%;
+    border-radius: 10px;
+}

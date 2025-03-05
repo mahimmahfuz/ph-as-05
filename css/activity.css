@@ -1,0 +1,35 @@
+#activity .heading{
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#activity .heading .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+#activity .heading .title h2{
+    font-weight: 400;
+}
+#activity .heading .button button{
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #3752FD;
+    border: none;
+    cursor: pointer;
+}
+#activity .middling{
+    margin-top: 20px;
+}
+#activity .middling p{
+    background-color: #F4F7FF;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}

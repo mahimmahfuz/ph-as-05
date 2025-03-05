@@ -1,0 +1,64 @@
+#daa #dashboard #dashboard_bar{
+    /* border-bottom: dashed rgb(189, 189, 189); */
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+#daa #dashboard #dashboard_bar .item{
+    border-radius: 10px;
+}
+#daa #dashboard #dashboard_bar .item1{
+    width: 25%;
+    background-color: #F4F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#daa #dashboard #dashboard_bar .item1 .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#daa #dashboard #dashboard_bar .item1 .circle img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#daa #dashboard #dashboard_bar .item1 .cnt p,h2{
+    margin: 0;
+}
+#daa #dashboard #dashboard_bar .item2{
+    width: 50%;
+    background: linear-gradient(90deg, rgba(155,168,248,1) 0%, rgba(108,127,250,1) 53%, rgba(55,82,253,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px 0;
+    gap: 20px;
+    font-weight: 100;
+}
+#daa #dashboard #dashboard_bar .item2 h1{
+    font-weight: 400;
+}
+#daa #dashboard #dashboard_bar .item3{
+    width: 25%;
+    background-color: #F4F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#daa #dashboard #dashboard_bar .item3 .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#daa #dashboard #dashboard_bar .item3 .circle img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#daa #dashboard #dashboard_bar .item3 .cnt p,h2{
+    margin: 0;
+}

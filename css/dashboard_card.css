@@ -1,0 +1,51 @@
+#daa #dashboard #dashboard_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 25px;
+    padding: 25px;
+}
+#daa #dashboard #dashboard_card .item{
+    background-color: #F4F7FF;
+    border-radius: 16px;
+    padding: 20px;
+}
+#daa #dashboard #dashboard_card .item .container{
+    margin: 15px 0;
+}
+#daa #dashboard #dashboard_card .item button{
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3752FD;
+    color: #FFFFFF;
+}
+#daa #dashboard #dashboard_card .item .whitespace1 button{
+    background-color: #FFFFFF;
+    color: black;
+}
+#daa #dashboard #dashboard_card .item .whitespace2{
+    background-color: #FFFFFF;
+    color: #808080;
+    padding: 23px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+#daa #dashboard #dashboard_card .item h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+#daa #dashboard #dashboard_card .item .dashboard_card_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#daa #dashboard #dashboard_card .item .dashboard_card_bottom p{
+    color: #5a5a5a;
+}
+#daa #dashboard #dashboard_card .item .dashboard_card_bottom h2{
+    font-size: 18px;
+    font-weight: 500
+}

@@ -1,0 +1,39 @@
+#navbar{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 8px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#navbar .left{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+#navbar .left img{}
+#navbar .left h1{}
+#navbar .left h1 span{
+    font-weight: 300;
+}
+#navbar .right{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+#navbar .right .checkbox{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    background-color: #F4F7FF;
+    height: 50px;
+    padding: 4px 16px;
+    border-radius: 32px;
+}
+/* .bg{
+    background-color: #F4F7FF;
+} */
+#navbar .right .checkbox img{}
+#navbar .right .checkbox h1{}
+#navbar .right img{}
