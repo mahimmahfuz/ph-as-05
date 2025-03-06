@@ -1,4 +1,6 @@
 const completedBtn = document.querySelectorAll("#dashboard_card .item .dashboard_card_bottom .right button");
+const totalTasks = document.querySelectorAll("#dashboard_card .item").length;
+let completedTasks = 0;
 completedBtn.forEach(element => {
     element.addEventListener("click", function() {
         alert("Board updated successfully");
@@ -23,6 +25,11 @@ completedBtn.forEach(element => {
             
         }
         navbarCounter();
+        // -------------------------
+        completedTasks++;
+        if (completedTasks === totalTasks) {
+            alert("Congrats!!! You have completed all the current tasks");
+        }
         // -------------------------
         element.disabled = true;
         element.style.backgroundColor = "#CED6FF";
@@ -56,3 +63,15 @@ completedBtn.forEach(element => {
         }
     });
 });
+
+function changeBackgroundColor() {
+    const colors = ['#FF5733', '#33FF57', '#3357FF', '#F0E68C', '#8A2BE2', '#FF4500', '#2E8B57'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;
+}
+
+const today = new Date();
+const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const monthName = today.toLocaleString('default', { month: 'short' });
+document.getElementById("day").innerText = daysOfWeek[today.getDay()] + " ,";
+document.getElementById("date").innerText = today.toLocaleString('default', { month: 'short' }) + " " + today.getDate() + " " + today.getFullYear();

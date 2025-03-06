@@ -31,9 +31,6 @@
     padding: 4px 16px;
     border-radius: 32px;
 }
-/* .bg{
-    background-color: #F4F7FF;
-} */
-#navbar .right .checkbox img{}
-#navbar .right .checkbox h1{}
-#navbar .right img{}
+#navbar .right img {
+    cursor: pointer;
+}
