@@ -29,11 +29,7 @@
     <div class="right">
         <div class="checkbox">
             <img src="assets/checkbox.png" alt="">
-                <h1>23</h1>
-            <!-- <div class="bg">
-                <img src="assets/checkbox.png" alt="">
-                <h1>23</h1>
-            </div> -->
+                <h1 id="navbar_counter">23</h1>
         </div>
         <img src="assets/theme-btn.png" alt="">
     </div>
@@ -49,10 +45,10 @@
                 </div>
                 <div class="cnt">
                     <p>Task Assigned</p>
-                    <h2>06</h2>
+                    <h2 id="task_counter">06</h2>
                 </div>
             </div>
-            <div class="item item2">
+            <div class="item item2" onclick="window.location.href='blog.html';">
                 <img src="assets/board.png" alt="">
                 <h1>Discover Something New <br> Today!</h1>
             </div>
@@ -70,7 +66,6 @@
             <div class="line"></div>
         </div>
         <section id="dashboard_card">
-            <!-- HERE -->
              <div class="item item1">
                 <div class="whitespace1">
                     <button>ShopEase</button>
@@ -206,25 +201,19 @@
                 <h2>Activity Log</h2>
             </div>
             <div class="button">
-                <button>Clear History</button>
+                <button id="activity_clear">Clear History</button>
             </div>
         </div>
         <div class="container">
             <div class="line"></div>
         </div>
-        <div class="middling">
-            <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
-            <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
-            <!-- <div class="item item1">
-                <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
-            </div>
-            <div class="item item2">
-                <h2>You have Complete The Task Add Dark Mode at 12:48:15 PM</h2>
-            </div> -->
+        <div id="middling_id" class="middling">
         </div>
     </section>
  </section>
 
 </div>
+
+<script src="js/app.js"></script>
 </body>
 </html>

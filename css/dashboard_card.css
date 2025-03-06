@@ -20,6 +20,7 @@
     border-radius: 8px;
     background-color: #3752FD;
     color: #FFFFFF;
+    cursor: pointer;
 }
 #daa #dashboard #dashboard_card .item .whitespace1 button{
     background-color: #FFFFFF;

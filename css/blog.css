@@ -1,0 +1,20 @@
+#navbar button{
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3752FD;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#blog h1{
+    text-align: center;
+}
+#blog .que{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#blog .que h2, p{
+    margin: 10px 0;
+}

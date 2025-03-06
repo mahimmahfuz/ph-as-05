@@ -38,6 +38,7 @@
     padding: 20px 0;
     gap: 20px;
     font-weight: 100;
+    cursor: pointer;
 }
 #daa #dashboard #dashboard_bar .item2 h1{
     font-weight: 400;

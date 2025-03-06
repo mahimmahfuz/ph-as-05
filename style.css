@@ -19,3 +19,7 @@ p{
     background-color: #FFFFFF;
     border-radius: 50%;
 }
+.marked{
+    background-color: #CED6FF;
+    cursor: default;
+}

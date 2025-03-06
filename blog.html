@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/dashed_line.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/navbar.css">
+     <link rel="stylesheet" href="css/dashboard.css">
+     <link rel="stylesheet" href="css/dashboard_bar.css">
+     <link rel="stylesheet" href="css/dashboard_card.css">
+     <link rel="stylesheet" href="css/activity.css">
+     <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+<div class="wrapper">
+
+<!-- NAVBAR -->
+<section id="navbar">
+    <div class="left">
+        <img src="assets/logo.png" alt="">
+        <h1><span>Dev</span>Board</h1>
+    </div>
+    <div class="right">
+        <button onclick="window.location.href='index.html';">Back to Desk</button>
+    </div>
+</section>
+<!-- blog -->
+<section id="blog">
+    <h1>Blogs</h1>
+    <div class="que que1">
+        <h2>Question-1: What are the different ways to select an element in the DOM?</h2>
+        <div class="container">
+            <div class="line"></div>
+        </div>
+        <p>
+            1. getElementById(): Selects by id (one element). <br>
+            2. getElementsByClassName(): Selects by class (multiple elements). <br>
+            3. getElementsByTagName(): Selects by tag name (multiple elements). <br>
+            4. querySelector(): Selects the first element that matches a CSS selector. <br>
+            5. querySelectorAll(): Selects all elements that match a CSS selector.
+    </div>
+    <div class="que que2">
+        <h2>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h2>
+        <div class="container">
+            <div class="line"></div>
+        </div>
+        <p>
+            1. innerHTML: Retrieves or sets HTML content (includes HTML tags). <br>
+            2. innerText: Retrieves or sets visible text content (ignores hidden text, excludes HTML tags). <br>
+            3. textContent: Retrieves or sets all text content (includes hidden text, excludes HTML tags). <br>
+            Conclusion: Use innerHTML for HTML content, innerText for visible text, and textContent for all text.
+        </p>
+    </div>
+    <div class="que que3">
+        <h2>Question-3: What is event delegation in the DOM?</h2>
+        <div class="container">
+            <div class="line"></div>
+        </div>
+        <p>Event delegation is a technique where you add one event listener to a parent element instead of adding multiple event listeners to each child element. This way, when a child element is clicked, the event is passed to the parent, which can handle it. This method is helpful when you have many child elements or if you are adding new child elements later.</p>
+    </div>
+    <div class="que que4">
+        <h2>Question-4: What is event bubbling in the DOM?</h2>
+        <div class="container">
+            <div class="line"></div>
+        </div>
+        <p>Event bubbling is a technique where an event such as a click, starts at the target element and "bubbles up" through it's parent elements until it reaches the top of the DOM tree. Each parent element has a chance to handle the event.</p>
+    </div>
+    <div class="que que5">
+        <h2>Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+        <div class="container">
+            <div class="line"></div>
+        </div>
+        <p>
+            create element: const newElement = document.createElement('div'); <br>
+            add element: document.body.appendChild(newElement); <br>
+            remove element: newElement.remove();
+        </p>
+    </div>
+</section>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
